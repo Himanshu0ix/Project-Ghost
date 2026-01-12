@@ -114,3 +114,4 @@ You **MUST** run this script with administrator privileges to allow it to modify
 ## ⚠️ Disclaimer
 
 This tool is intended for educational and ethical purposes only. Using public proxies is inherently slow and unreliable. This tool does **NOT** encrypt your traffic and is not a replacement for a full VPN. The user assumes all responsibility for their actions.
+
