@@ -111,6 +111,32 @@ You **MUST** run this script with administrator privileges to allow it to modify
 
 ---
 
+
+---
+
+## ⚠️ [!WARNING]
+Security Warning: Public Proxies Are Untrusted
+
+Project Ghost uses publicly available proxy servers. These servers are operated by third parties and should never be considered trusted infrastructure.
+
+Public proxy operators may monitor connection metadata, including your source IP address, destination addresses, connection times, and traffic patterns.
+
+Unencrypted HTTP traffic can be intercepted, inspected, recorded, or modified by a proxy operator.
+
+HTTPS provides end-to-end TLS protection when certificate validation is working correctly, but a proxy can still observe connection metadata and may interfere with traffic if TLS is misconfigured or a trusted certificate authority has been compromised.
+
+Malicious proxy servers may inject content, redirect requests, or attempt to manipulate unencrypted communications.
+
+Proxy rotation does not guarantee anonymity, privacy, or protection against tracking.
+
+Never use public proxies for banking, personal accounts, authentication credentials, confidential information, or other sensitive communications.
+
+Use trusted proxy infrastructure and non-sensitive test traffic when evaluating this project.
+
+
+
+---
+
 ## ⚠️ Disclaimer
 
 This tool is intended for educational and ethical purposes only. Using public proxies is inherently slow and unreliable. This tool does **NOT** encrypt your traffic and is not a replacement for a full VPN. The user assumes all responsibility for their actions.
